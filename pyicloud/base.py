@@ -43,7 +43,7 @@ class PyiCloudService(object):
             'host': 'setup.icloud.com',
             'origin': self._home_endpoint,
             'referer': '%s/' % self._home_endpoint,
-            'User-Agent': 'Opera/9.52 (X11; Linux i686; U; en)'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A'
         })
 
         self.params = {}
